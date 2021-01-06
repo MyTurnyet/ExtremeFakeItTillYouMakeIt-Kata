@@ -12,7 +12,7 @@ namespace FizzBuzzFake
         [TestMethod]
         public void TestFizzBuzz()
         {
-            var java = PathUtilities.LocateFileFromEnvironmentPath("javaw.exe");
+            var java = PathUtilities.LocateFileFromEnviormentPath("javaw.exe");
             var counterDisplayJar = PathUtilities.GetAdjacentFile("CounterDisplay.jar");
             // TestCounter.ResetAndLaunch(java.FirstOrDefault(), counterDisplayJar);// Comment out after 1st run
            // TestCounter.Track(Check20);
